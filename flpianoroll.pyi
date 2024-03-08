@@ -258,7 +258,7 @@ class Note():
     selected: bool
     "note is selected"
 
-    def clone(self) -> None:
+    def clone(self) -> Note:
         """current note is cloned
         """
 
